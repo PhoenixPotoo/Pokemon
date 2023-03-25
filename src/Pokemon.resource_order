@@ -13,11 +13,11 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Back Sprites","order":120,"path":"folders/Sprites/Back Sprites.yy",},
+    {"name":"Front Sprites","order":171,"path":"folders/Sprites/Front Sprites.yy",},
     {"name":"Tileset Sprites","order":19,"path":"folders/Sprites/Tileset Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Back Sprites","order":120,"path":"folders/Sprites/Back Sprites.yy",},
-    {"name":"Front Sprites","order":171,"path":"folders/Sprites/Front Sprites.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sprFont","order":3,"path":"sprites/sprFont/sprFont.yy",},
