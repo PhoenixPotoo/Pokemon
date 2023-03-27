@@ -1,4 +1,3 @@
-if(sprite_index = sprMayRight)
-{
-	x = x + 2
-}
+/// @description Walk to da right
+
+move();

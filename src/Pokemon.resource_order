@@ -37,6 +37,7 @@
     {"name":"sprPetalburgWoods","order":11,"path":"sprites/sprPetalburgWoods/sprPetalburgWoods.yy",},
     {"name":"sprNPCs","order":10,"path":"sprites/sprNPCs/sprNPCs.yy",},
     {"name":"sprItemIcons","order":6,"path":"sprites/sprItemIcons/sprItemIcons.yy",},
+    {"name":"move","order":1,"path":"scripts/move/move.yy",},
     {"name":"sprInteriorAreas","order":4,"path":"sprites/sprInteriorAreas/sprInteriorAreas.yy",},
     {"name":"sprLittlerootTown","order":7,"path":"sprites/sprLittlerootTown/sprLittlerootTown.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
