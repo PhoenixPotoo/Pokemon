@@ -17,3 +17,4 @@ global.components = [directions.down] = [0, 1];
 global.components = [directions.up] = [0, -1];
 
 
+
