@@ -31,7 +31,14 @@
 -2,0,2,-2147483648,0,-11,-2147483648,5,0,-2147483648,0,-2147483648,0,-11,-2147483648,-9,0,-4,-2147483648,-2,0,4,-2147483648,0,-2147483648,0,-11,-2147483648,-18,0,
 -12,-2147483648,-17,0,-14,-2147483648,-11,0,-19,-2147483648,-10,0,-19,-2147483648,-8,0,-24,-2147483648,-3,0,-169,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tsPokeLab","path":"tilesets/tsPokeLab/tsPokeLab.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Ground","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":26,"SerialiseWidth":30,"TileCompressedData":[
--780,0,],"TileDataFormat":1,},"tilesetId":{"name":"tsPokeLab","path":"tilesets/tsPokeLab/tsPokeLab.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-215,0,13,13,14,15,16,17,18,19,20,21,22,23,24,25,-17,0,13,26,27,28,29,30,31,32,33,34,35,36,
+37,38,-17,0,13,39,40,41,42,43,44,45,46,47,48,49,50,51,-17,0,13,52,53,54,55,56,57,58,59,60,
+61,62,63,64,-17,0,13,65,66,67,68,69,70,71,72,73,74,75,76,77,-17,0,13,78,79,80,81,82,83,84,
+85,86,87,88,89,90,-17,0,13,91,92,93,94,95,96,97,98,99,100,101,102,103,-17,0,13,104,105,106,107,108,
+109,110,111,112,113,114,115,116,-17,0,13,117,118,119,120,121,122,123,124,125,126,127,128,129,-17,0,13,130,131,132,
+133,134,135,136,137,138,139,140,141,142,-17,0,13,143,144,145,146,147,148,149,150,151,152,153,154,155,-17,0,13,156,
+157,158,159,160,161,162,163,164,165,166,167,168,-17,0,13,169,170,171,172,173,174,175,176,177,178,179,180,181,-192,0,
+],"TileDataFormat":1,},"tilesetId":{"name":"tsPokeLab","path":"tilesets/tsPokeLab/tsPokeLab.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {

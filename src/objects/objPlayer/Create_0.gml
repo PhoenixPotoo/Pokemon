@@ -8,8 +8,8 @@ enum states{
 
 state = states.idle;
 
-x_pos = x div tile_width;
-y_pos = y div tile_height;
+x_pos = floor(x / tile_width);
+y_pos = floor(y / tile_height);
 
 x_from = x_pos;
 y_from = y_pos;
@@ -28,7 +28,6 @@ sprite[directions.left] = sprMayLeft;
 sprite[directions.down] = sprMayDown;
 sprite[directions.up] = sprMayUp;
 
-var tile_layer = layer_get_id("Collisions");
-tile_map = layer_tilemap_get_id(tile_layer);
+
 
 image_index = 1

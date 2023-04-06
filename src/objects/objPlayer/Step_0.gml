@@ -17,3 +17,6 @@ if(state == states.walking){
 	
 	image_index = frames[floor((walk_anim_frames - 1) * t)]
 }
+
+var tile_layer = layer_get_id("Collisions");
+tile_map = layer_tilemap_get_id(tile_layer);
