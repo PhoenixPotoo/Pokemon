@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "tsTown",
+  "name": "tsLittlerootTown",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -787,5 +787,5 @@
   "tilevsep": 0,
   "tileWidth": 16,
   "tilexoff": 0,
-  "tileyoff": 8,
+  "tileyoff": 9,
 }

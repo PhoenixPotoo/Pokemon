@@ -14,5 +14,6 @@ if(state == states.walking){
 
 	x = _x * tile_width;
 	y = _y * tile_width;
-
+	
+	image_index = frames[floor((walk_anim_frames - 1) * t)]
 }

@@ -1,3 +1,3 @@
 /// @description Walk to da right
 
-move();
+move(directions.right);
