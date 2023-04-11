@@ -11,7 +11,8 @@ enum directions{
 
 enum rooms{
 	LittlerootTown,
-	PokeLab
+	PokeLab,
+	PetalburgWoods
 }
 
 global.components = [];
