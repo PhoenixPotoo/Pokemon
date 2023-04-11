@@ -4,7 +4,7 @@ function move(dir){
 	var dy = components[1];
 
 	if (state == states.idle){ //tile_map is holding tm for collisons
-		if !(tilemap_get(tile_map, x_pos + dx, y_pos + dy)){
+		if !(tilemap_get(collision_tile_map, x_pos + dx, y_pos + dy)){
 			x_from = x_pos;
 			y_from = y_pos;
 	
