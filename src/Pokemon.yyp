@@ -77,10 +77,8 @@
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprTown","path":"sprites/sprTown/sprTown.yy",},},
     {"id":{"name":"sprTypes","path":"sprites/sprTypes/sprTypes.yy",},},
-    {"id":{"name":"LittlerootTown","path":"rooms/LittlerootTown/LittlerootTown.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"LittlerootTown","path":"rooms/LittlerootTown/LittlerootTown.yy",},},
     {"roomId":{"name":"PokeLab","path":"rooms/PokeLab/PokeLab.yy",},},
     {"roomId":{"name":"PetalburgWoods","path":"rooms/PetalburgWoods/PetalburgWoods.yy",},},
     {"roomId":{"name":"Template","path":"rooms/Template/Template.yy",},},
