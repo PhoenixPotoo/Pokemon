@@ -66,6 +66,7 @@
     {"id":{"name":"tsGrass","path":"tilesets/tsGrass/tsGrass.yy",},},
     {"id":{"name":"objBarrier","path":"objects/objBarrier/objBarrier.yy",},},
     {"id":{"name":"Template","path":"rooms/Template/Template.yy",},},
+    {"id":{"name":"Sprite26","path":"sprites/Sprite26/Sprite26.yy",},},
     {"id":{"name":"tsLittlerootTown","path":"tilesets/tsLittlerootTown/tsLittlerootTown.yy",},},
     {"id":{"name":"sprGrass","path":"sprites/sprGrass/sprGrass.yy",},},
     {"id":{"name":"sprGrassTile","path":"sprites/sprGrassTile/sprGrassTile.yy",},},

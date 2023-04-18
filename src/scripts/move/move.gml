@@ -23,6 +23,7 @@ function move(dir){
 			if(y_to < 0 and room_get_name(room) == "LittlerootTown"){
 				room_goto(rooms.PetalburgWoods)
 			}
+			
 			state = states.walking;
 		}
 		sprite_index = sprite[dir] //dir is the enum so this works

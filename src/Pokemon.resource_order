@@ -46,6 +46,7 @@
     {"name":"tsGrass","order":5,"path":"tilesets/tsGrass/tsGrass.yy",},
     {"name":"objBarrier","order":2,"path":"objects/objBarrier/objBarrier.yy",},
     {"name":"Template","order":2,"path":"rooms/Template/Template.yy",},
+    {"name":"Sprite26","order":179,"path":"sprites/Sprite26/Sprite26.yy",},
     {"name":"sprGrass","order":2,"path":"sprites/sprGrass/sprGrass.yy",},
     {"name":"sprGrassTile","order":1,"path":"sprites/sprGrassTile/sprGrassTile.yy",},
     {"name":"move","order":1,"path":"scripts/move/move.yy",},
