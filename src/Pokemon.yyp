@@ -63,6 +63,7 @@
     {"id":{"name":"sprItemIcons","path":"sprites/sprItemIcons/sprItemIcons.yy",},},
     {"id":{"name":"sprBattleIntroductions","path":"sprites/sprBattleIntroductions/sprBattleIntroductions.yy",},},
     {"id":{"name":"sprPokeLab","path":"sprites/sprPokeLab/sprPokeLab.yy",},},
+    {"id":{"name":"calcMove","path":"scripts/calcMove/calcMove.yy",},},
     {"id":{"name":"tsGrass","path":"tilesets/tsGrass/tsGrass.yy",},},
     {"id":{"name":"objBarrier","path":"objects/objBarrier/objBarrier.yy",},},
     {"id":{"name":"Template","path":"rooms/Template/Template.yy",},},

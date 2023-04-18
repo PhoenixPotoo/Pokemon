@@ -43,6 +43,7 @@
     {"name":"sprNPCs","order":10,"path":"sprites/sprNPCs/sprNPCs.yy",},
     {"name":"sprItemIcons","order":6,"path":"sprites/sprItemIcons/sprItemIcons.yy",},
     {"name":"sprPokeLab","order":17,"path":"sprites/sprPokeLab/sprPokeLab.yy",},
+    {"name":"calcMove","order":2,"path":"scripts/calcMove/calcMove.yy",},
     {"name":"tsGrass","order":5,"path":"tilesets/tsGrass/tsGrass.yy",},
     {"name":"objBarrier","order":2,"path":"objects/objBarrier/objBarrier.yy",},
     {"name":"Template","order":2,"path":"rooms/Template/Template.yy",},

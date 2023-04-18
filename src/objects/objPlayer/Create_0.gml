@@ -3,7 +3,10 @@
 
 enum states{
 	idle,
-	walking
+	walking,
+	goingToLT,
+	goingToPW,
+	goingToP
 }
 
 state = states.idle;
