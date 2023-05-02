@@ -22,6 +22,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"objDataCarrier","order":3,"path":"objects/objDataCarrier/objDataCarrier.yy",},
     {"name":"tsGrassTile","order":4,"path":"tilesets/tsGrassTile/tsGrassTile.yy",},
     {"name":"sprFont","order":3,"path":"sprites/sprFont/sprFont.yy",},
     {"name":"sprMayRight","order":1,"path":"sprites/sprMayRight/sprMayRight.yy",},

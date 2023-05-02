@@ -16,6 +16,7 @@ function move(dir){
 			
 			if(x_to == 12  and y_to == 18 and room_get_name(room) == "LittlerootTown"){
 				room_goto(rooms.PokeLab)
+				instance_create_layer(192, 304, "People", objPlayer)
 			}
 			if(x_to == 12  and y_to == 20 and room_get_name(room) == "PokeLab"){
 				room_goto(rooms.LittlerootTown)

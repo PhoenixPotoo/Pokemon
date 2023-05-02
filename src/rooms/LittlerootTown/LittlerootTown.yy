@@ -30,7 +30,7 @@
 1,2,1,2,1,2,1,2,1,2,9,10,11,13,14,15,13,14,5,6,5,6,5,6,5,6,5,6,5,6,
 5,6,5,6,5,6,5,6,5,6,13,14,15,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,
 3,1,2,3,1,2,3,1,2,3,1,2,3,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,
-7,5,6,7,5,6,7,5,6,7,5,6,7,],"TileDataFormat":1,},"tilesetId":{"name":"tsBarrier","path":"tilesets/tsBarrier/tsBarrier.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+7,5,6,7,5,6,7,5,6,7,5,6,7,],"TileDataFormat":1,},"tilesetId":{"name":"tsBarrier","path":"tilesets/tsBarrier/tsBarrier.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Grass","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[
 ],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"BuildingTops","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":26,"SerialiseWidth":30,"TileCompressedData":[
