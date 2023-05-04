@@ -2,13 +2,26 @@ function move(dir){
 	var components = global.components[dir]; 
 	var dx = components[0];
 	var dy = components[1];
+	collision_tile_layer = layer_get_id("Collisions");
+	collision_tile_map = layer_tilemap_get_id(collision_tile_layer);
+	grass_tile_layer = layer_get_id("Grass");
+	grass_tile_map = layer_tilemap_get_id(grass_tile_layer);
 
+	
 	if (state == states.idle){ //tile_map is holding tm for collisons
-		    collision_tile_layer = layer_get_id("Collisions");
-			collision_tile_map = layer_tilemap_get_id(collision_tile_layer);
-			grass_tile_layer = layer_get_id("Grass");
-			grass_tile_map = layer_tilemap_get_id(grass_tile_layer);
-		if !(tilemap_get(collision_tile_map, x_pos + dx, y_pos + dy)){
+		if(tilemap_get(grass_tile_map, x_pos, y_pos)){
+			randomize()
+			encounter = irandom_range(1, 10)
+			if (encounter == 1 and !inBattle){
+			show_message("You encountered a pokemon")
+			inBattle = true
+			}
+			else{
+			inBattle = false
+			}
+			
+		}
+		if !(tilemap_get(collision_tile_map, x_pos + dx, y_pos + dy)) and !inBattle{
 			x_from = x_pos;
 			y_from = y_pos;
 	
@@ -24,16 +37,28 @@ function move(dir){
 				room_goto(rooms.PokeLab)
 				
 			}
+			if(y_to == -1 and room_get_name(room) == "LittlerootTown"){
+				targetY = 688
+				if (x_to == 15){targetX = 256}
+				if (x_to == 16){targetX = 272}
+				room_goto(rooms.PetalburgWoods)
+				
+			}
+			if(y_to == 44 and room_get_name(room) == "PetalburgWoods"){
+				targetY = 0
+				if (x_to == 17){targetX = 256}
+				if (x_to == 16){targetX = 240}
+				room_goto(rooms.LittlerootTown)
+			}
 			if((x_to == 12 or x_to == 11) and y_to == 20 and room_get_name(room) == "PokeLab"){
 				targetX = 192
 				targetY = 304
 				room_goto(rooms.LittlerootTown)
-				
 			}
 			state = states.walking;
+		
 		}
 		sprite_index = sprite[dir] //dir is the enum so this works
-	
 	}
 	
 }
