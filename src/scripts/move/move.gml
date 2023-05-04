@@ -18,12 +18,15 @@ function move(dir){
 			x_pos = x_to;
 			y_pos = y_to;
 			
-			if(x_to == 12  and y_to == 18 and room_get_name(room) == "LittlerootTown"){
-				
+			if(x_to == 12 and y_to == 18 and room_get_name(room) == "LittlerootTown"){
+				targetX = 192
+				targetY = 304
 				room_goto(rooms.PokeLab)
 				
 			}
-			if(x_to == 12  and y_to == 20 and room_get_name(room) == "PokeLab"){
+			if((x_to == 12 or x_to == 11) and y_to == 20 and room_get_name(room) == "PokeLab"){
+				targetX = 192
+				targetY = 304
 				room_goto(rooms.LittlerootTown)
 				
 			}

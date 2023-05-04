@@ -17,6 +17,9 @@ y_from = y_pos;
 x_to = x_pos;
 y_to = y_pos;
 
+targetX = 0;
+targetY = 0;
+
 walk_anim_length = 0.4;
 walk_anim_time = 0;
 
