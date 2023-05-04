@@ -4,6 +4,7 @@ if(instance_exists(objDataCarrier)){
 	sprite_index = objDataCarrier.playerSprite
 	x = objDataCarrier.playerX
 	y = objDataCarrier.playerY
+	
 	x_pos = objDataCarrier.playerX_pos;
 	y_pos = objDataCarrier.playerY_pos;
 

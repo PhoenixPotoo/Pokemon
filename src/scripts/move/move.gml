@@ -7,7 +7,6 @@ function move(dir){
 	grass_tile_layer = layer_get_id("Grass");
 	grass_tile_map = layer_tilemap_get_id(grass_tile_layer);
 
-	
 	if (state == states.idle){ //tile_map is holding tm for collisons
 		if(tilemap_get(grass_tile_map, x_pos, y_pos)){
 			randomize()
@@ -31,25 +30,30 @@ function move(dir){
 			x_pos = x_to;
 			y_pos = y_to;
 			
+			//from town to poke lab
 			if(x_to == 12 and y_to == 18 and room_get_name(room) == "LittlerootTown"){
 				targetX = 192
 				targetY = 304
 				room_goto(rooms.PokeLab)
-				
 			}
+			
+			//from town to route 1
 			if(y_to == -1 and room_get_name(room) == "LittlerootTown"){
 				targetY = 688
 				if (x_to == 15){targetX = 256}
 				if (x_to == 16){targetX = 272}
 				room_goto(rooms.PetalburgWoods)
-				
 			}
+			
+			//from route 1 back to town
 			if(y_to == 44 and room_get_name(room) == "PetalburgWoods"){
 				targetY = 0
 				if (x_to == 17){targetX = 256}
 				if (x_to == 16){targetX = 240}
 				room_goto(rooms.LittlerootTown)
 			}
+			
+			//from poke lab back to town
 			if((x_to == 12 or x_to == 11) and y_to == 20 and room_get_name(room) == "PokeLab"){
 				targetX = 192
 				targetY = 304

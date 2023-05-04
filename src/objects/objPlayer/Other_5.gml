@@ -4,7 +4,7 @@ if(!instance_exists(objDataCarrier)){
 	instance_create_depth(0, 0, 0, objDataCarrier)
 	objDataCarrier.playerSprite = sprMayUp
 	
-	objDataCarrier.playerX = targetX //make this a universal variable to change at move line 22
+	objDataCarrier.playerX = targetX
 	objDataCarrier.playerY = targetY
 	
 	objDataCarrier.playerX_pos = floor(objDataCarrier.playerX / tile_width);
