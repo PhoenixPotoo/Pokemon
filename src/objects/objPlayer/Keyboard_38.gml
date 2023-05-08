@@ -1,3 +1,3 @@
 /// @description Walk upwards
 
-move(directions.up);
+Move(directions.up);

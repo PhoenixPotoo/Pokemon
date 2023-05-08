@@ -1,3 +1,3 @@
 /// @description Walk downwards
 
-move(directions.down);
+Move(directions.down);

@@ -2,8 +2,9 @@
 
 
 enum states{
-	idle,
-	walking
+	idle = 0,
+	walking = 1,
+	battling = 2
 }
 
 state = states.idle;
