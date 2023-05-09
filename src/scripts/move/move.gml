@@ -13,18 +13,15 @@ function Move(dir){
 			// get to battling
 			if(tilemap_get(grass_tile_map, x_pos, y_pos)){
 				randomize()
-				encounter = irandom_range(1, 10)
-				if (encounter == 1 and !inBattle){
+				encounter = irandom_range(1, 10) //rng
+				if (encounter == 1 and !justEncountered){
+					justEncountered = true
 					state = states.battling
-					inBattle = true
 				}
-				else{
-					inBattle = false
-				}
-			
 			}
 			//movement/doors
-			if !(tilemap_get(collision_tile_map, x_pos + dx, y_pos + dy)) and !inBattle{
+			if !(tilemap_get(collision_tile_map, x_pos + dx, y_pos + dy)) and state != states.battling{
+				justEncountered = false
 				x_from = x_pos;
 				y_from = y_pos;
 	
@@ -70,8 +67,8 @@ function Move(dir){
 			break;
 		case states.battling:
 			show_message("encountered!!!")
-			inBattle = Battle()
-			if(!inBattle){state = states.idle}
+			show_message("you won cool ong fr ")
+			state = states.idle
 			break;
 	}
 	

@@ -8,7 +8,6 @@ enum states{
 }
 
 state = states.idle;
-inBattle = false
 
 x_pos = floor(x / tile_width);
 y_pos = floor(y / tile_height);

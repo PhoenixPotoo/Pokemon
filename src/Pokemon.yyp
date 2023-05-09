@@ -36,7 +36,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.2.0.71",
   },
   "resources": [
     {"id":{"name":"objDataCarrier","path":"objects/objDataCarrier/objDataCarrier.yy",},},
@@ -45,6 +45,7 @@
     {"id":{"name":"sprMayDown","path":"sprites/sprMayDown/sprMayDown.yy",},},
     {"id":{"name":"sprMayRight","path":"sprites/sprMayRight/sprMayRight.yy",},},
     {"id":{"name":"sprTargetLeave","path":"sprites/sprTargetLeave/sprTargetLeave.yy",},},
+    {"id":{"name":"objBattleHandler","path":"objects/objBattleHandler/objBattleHandler.yy",},},
     {"id":{"name":"MACRO","path":"scripts/MACRO/MACRO.yy",},},
     {"id":{"name":"PokeLab","path":"rooms/PokeLab/PokeLab.yy",},},
     {"id":{"name":"sprMayLeft","path":"sprites/sprMayLeft/sprMayLeft.yy",},},
@@ -57,10 +58,10 @@
     {"id":{"name":"tsBarrier","path":"tilesets/tsBarrier/tsBarrier.yy",},},
     {"id":{"name":"sprMoveEffects","path":"sprites/sprMoveEffects/sprMoveEffects.yy",},},
     {"id":{"name":"PetalburgWoods","path":"rooms/PetalburgWoods/PetalburgWoods.yy",},},
+    {"id":{"name":"PartyData","path":"scripts/PartyData/PartyData.yy",},},
     {"id":{"name":"sprMay","path":"sprites/sprMay/sprMay.yy",},},
     {"id":{"name":"sprMayUp","path":"sprites/sprMayUp/sprMayUp.yy",},},
     {"id":{"name":"sprPokemonCentre_Mart","path":"sprites/sprPokemonCentre_Mart/sprPokemonCentre_Mart.yy",},},
-    {"id":{"name":"Battle","path":"scripts/Battle/Battle.yy",},},
     {"id":{"name":"sprPetalburgWoods","path":"sprites/sprPetalburgWoods/sprPetalburgWoods.yy",},},
     {"id":{"name":"sprNPCs","path":"sprites/sprNPCs/sprNPCs.yy",},},
     {"id":{"name":"sprItemIcons","path":"sprites/sprItemIcons/sprItemIcons.yy",},},
