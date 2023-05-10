@@ -36,7 +36,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.0.71",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"objDataCarrier","path":"objects/objDataCarrier/objDataCarrier.yy",},},
@@ -56,6 +56,7 @@
     {"id":{"name":"sprPokemonMenu","path":"sprites/sprPokemonMenu/sprPokemonMenu.yy",},},
     {"id":{"name":"sprPokeBalls","path":"sprites/sprPokeBalls/sprPokeBalls.yy",},},
     {"id":{"name":"tsBarrier","path":"tilesets/tsBarrier/tsBarrier.yy",},},
+    {"id":{"name":"sprBattleBG","path":"sprites/sprBattleBG/sprBattleBG.yy",},},
     {"id":{"name":"sprMoveEffects","path":"sprites/sprMoveEffects/sprMoveEffects.yy",},},
     {"id":{"name":"PetalburgWoods","path":"rooms/PetalburgWoods/PetalburgWoods.yy",},},
     {"id":{"name":"PartyData","path":"scripts/PartyData/PartyData.yy",},},
@@ -79,6 +80,7 @@
     {"id":{"name":"tsPetalburgWoods","path":"tilesets/tsPetalburgWoods/tsPetalburgWoods.yy",},},
     {"id":{"name":"sprInteriorAreas","path":"sprites/sprInteriorAreas/sprInteriorAreas.yy",},},
     {"id":{"name":"sprLittlerootTown","path":"sprites/sprLittlerootTown/sprLittlerootTown.yy",},},
+    {"id":{"name":"sprBattleBackgrounds","path":"sprites/sprBattleBackgrounds/sprBattleBackgrounds.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprTown","path":"sprites/sprTown/sprTown.yy",},},
     {"id":{"name":"sprTypes","path":"sprites/sprTypes/sprTypes.yy",},},
