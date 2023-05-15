@@ -60,7 +60,7 @@ fai = global.types.fairy
 
 global.types = 
 {
-	normal:
+	nor:
 	{
 		sEffectiveAgainst: [],
 		nEffectiveAgainst: [ roc,  ste],
@@ -105,32 +105,33 @@ global.types =
 	fig:
 	{
 		sEffectiveAgainst: [ nor,  ice,  roc,  dar,  ste],
-		nEffectiveAgainst: [ poi,  fly,  psy, ],
+		nEffectiveAgainst: [ poi,  fly,  psy, bug, fai],
 		immuneTo: []
 	},
 	
-	poison:
+	poi:
+	{
+		sEffectiveAgainst: [gra, fai],
+		nEffectiveAgainst: [poi, gro, roc, gho],
+		immuneTo: []
+	},
+	
+	gro:
+	{
+		sEffectiveAgainst: [fir, ele, poi, roc, ste],
+		nEffectiveAgainst: [gra, bug],
+		immuneTo: []
+	},
+	
+	fly:
 	{
 		sEffectiveAgainst: [],
 		nEffectiveAgainst: [],
-		immuneTo: []
+		immuneTo: 
+		[]
 	},
 	
-	ground:
-	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
-		immuneTo: []
-	},
-	
-	flying:
-	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
-		immuneTo: []
-	},
-	
-	psychic:
+	psy:
 	{
 		sEffectiveAgainst: [],
 		nEffectiveAgainst: [],
@@ -144,42 +145,42 @@ global.types =
 		immuneTo: []
 	},
 	
-	rock:
+	roc:
 	{
 		sEffectiveAgainst: [],
 		nEffectiveAgainst: [],
 		immuneTo: []
 	},
 	
-	ghost:
+	gho:
 	{
 		sEffectiveAgainst: [],
 		nEffectiveAgainst: [],
 		immuneTo: []
 	},
 	
-	dragon:
+	dra:
 	{
 		sEffectiveAgainst: [],
 		nEffectiveAgainst: [],
 		immuneTo: []
 	},
 	
-	dark:
+	dar:
 	{
 		sEffectiveAgainst: [],
 		nEffectiveAgainst: [],
 		immuneTo: []
 	},
 	
-	steel:
+	ste:
 	{
 		sEffectiveAgainst: [],
 		nEffectiveAgainst: [],
 		immuneTo: []
 	},
 	
-	fairy:
+	fai:
 	{
 		sEffectiveAgainst: [],
 		nEffectiveAgainst: [],
