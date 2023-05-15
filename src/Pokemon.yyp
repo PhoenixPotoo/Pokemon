@@ -36,7 +36,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.2.0.71",
   },
   "resources": [
     {"id":{"name":"objDataCarrier","path":"objects/objDataCarrier/objDataCarrier.yy",},},
@@ -44,6 +44,7 @@
     {"id":{"name":"sprFont","path":"sprites/sprFont/sprFont.yy",},},
     {"id":{"name":"sprMayDown","path":"sprites/sprMayDown/sprMayDown.yy",},},
     {"id":{"name":"sprMayRight","path":"sprites/sprMayRight/sprMayRight.yy",},},
+    {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},},
     {"id":{"name":"sprTargetLeave","path":"sprites/sprTargetLeave/sprTargetLeave.yy",},},
     {"id":{"name":"objBattleHandler","path":"objects/objBattleHandler/objBattleHandler.yy",},},
     {"id":{"name":"MACRO","path":"scripts/MACRO/MACRO.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"sprBattleBG","path":"sprites/sprBattleBG/sprBattleBG.yy",},},
     {"id":{"name":"sprMoveEffects","path":"sprites/sprMoveEffects/sprMoveEffects.yy",},},
     {"id":{"name":"PetalburgWoods","path":"rooms/PetalburgWoods/PetalburgWoods.yy",},},
+    {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},},
     {"id":{"name":"PartyData","path":"scripts/PartyData/PartyData.yy",},},
     {"id":{"name":"sprMay","path":"sprites/sprMay/sprMay.yy",},},
     {"id":{"name":"sprMayUp","path":"sprites/sprMayUp/sprMayUp.yy",},},

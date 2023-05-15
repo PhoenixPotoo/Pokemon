@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_sprite(sprBattleBG,)
+draw_sprite(sprBattleBG, 0, x, y);
