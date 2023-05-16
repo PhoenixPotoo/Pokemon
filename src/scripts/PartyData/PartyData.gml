@@ -63,8 +63,8 @@ global.types =
 	nor:
 	{
 		sEffectiveAgainst: [],
-		nEffectiveAgainst: [ roc,  ste],
-		immuneTo: []
+		nEffectiveAgainst: [roc,  ste],
+		immuneTo: [gho]
 	},
 	
 	fir:
@@ -120,71 +120,70 @@ global.types =
 	{
 		sEffectiveAgainst: [fir, ele, poi, roc, ste],
 		nEffectiveAgainst: [gra, bug],
-		immuneTo: []
+		immuneTo: [ele]
 	},
 	
 	fly:
 	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
-		immuneTo: 
-		[]
+		sEffectiveAgainst: [gra, fig, bug],
+		nEffectiveAgainst: [ele, roc, ste],
+		immuneTo: [gro]
 	},
 	
 	psy:
 	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
+		sEffectiveAgainst: [fig, poi],
+		nEffectiveAgainst: [psy, ste],
 		immuneTo: []
 	},
 	
 	bug:
 	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
+		sEffectiveAgainst: [gra, psy, dar],
+		nEffectiveAgainst: [fir, fig, poi, fly, gho, ste, fai],
 		immuneTo: []
 	},
 	
 	roc:
 	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
+		sEffectiveAgainst: [fir, ice, fly, bug],
+		nEffectiveAgainst: [fig, gro, ste],
 		immuneTo: []
 	},
 	
 	gho:
 	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
-		immuneTo: []
+		sEffectiveAgainst: [psy, gho],
+		nEffectiveAgainst: [dar],
+		immuneTo: [nor, fig]
 	},
 	
 	dra:
 	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
-		immuneTo: []
+		sEffectiveAgainst: [dra],
+		nEffectiveAgainst: [ste],
+		immuneTo: [fai]
 	},
 	
 	dar:
 	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
-		immuneTo: []
+		sEffectiveAgainst: [psy, gho],
+		nEffectiveAgainst: [fig, dar, fai],
+		immuneTo: [psy]
 	},
 	
 	ste:
 	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
+		sEffectiveAgainst: [ice, roc, fai],
+		nEffectiveAgainst: [fig, dra, dar],
 		immuneTo: []
 	},
 	
 	fai:
 	{
-		sEffectiveAgainst: [],
-		nEffectiveAgainst: [],
-		immuneTo: []
+		sEffectiveAgainst: [fig. dra, dar],
+		nEffectiveAgainst: [fir, poi, ste],
+		immuneTo: [dra]
 	}
 	
 }
