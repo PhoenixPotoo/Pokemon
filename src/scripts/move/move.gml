@@ -17,7 +17,7 @@ function Move(dir){
 				if (encounter == 1 and !justEncountered){
 					justEncountered = true
 					state = states.battling
-					NewEncounter([])
+					NewEncounter([GenNewWildPM()], sprBattleBG)
 				}
 			}
 			//movement/doors

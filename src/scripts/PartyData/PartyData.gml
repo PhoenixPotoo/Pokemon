@@ -180,7 +180,7 @@ global.pokemonStats =
 		baseSpd: 20,
 		frontSprite: sprFront265,
 		backSprite: sprBack265,
-		type: "",
+		type: global.types.bug,
 		pokedexNum: 265,
 	}
 }
