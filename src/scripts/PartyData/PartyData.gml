@@ -164,7 +164,7 @@ global.pokemonStats =
 		baseSpAtk: 30,
 		baseSpDef: 41,
 		baseSpd: 60,
-		sprites:
+		spr:
 		{
 			frontSprite: sprFront263,
 			backSprite: sprBack263

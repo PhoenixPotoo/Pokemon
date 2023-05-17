@@ -1,3 +1,3 @@
-sprite_index = global.pokemonStats.wurmple.sprites.frontSprite;
+sprite_index = spr.frontSprite;
 
 //enemies is a struct in partyData
