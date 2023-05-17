@@ -36,7 +36,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.0.71",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"objDataCarrier","path":"objects/objDataCarrier/objDataCarrier.yy",},},
@@ -95,9 +95,9 @@
     {"id":{"name":"LittlerootTown","path":"rooms/LittlerootTown/LittlerootTown.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"PetalburgWoods","path":"rooms/PetalburgWoods/PetalburgWoods.yy",},},
     {"roomId":{"name":"LittlerootTown","path":"rooms/LittlerootTown/LittlerootTown.yy",},},
     {"roomId":{"name":"PokeLab","path":"rooms/PokeLab/PokeLab.yy",},},
-    {"roomId":{"name":"PetalburgWoods","path":"rooms/PetalburgWoods/PetalburgWoods.yy",},},
     {"roomId":{"name":"Template","path":"rooms/Template/Template.yy",},},
   ],
   "TextureGroups": [
