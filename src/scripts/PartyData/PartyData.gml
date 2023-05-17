@@ -1,25 +1,6 @@
 // starting up me party
 
-global.playerParty = 
-[
-	{},
-	{},
-	{},
-	{},
-	{},
-	{}
 
-]
-
-global.enemyParty = 
-[
-	{},
-	{},
-	{},
-	{},
-	{},
-	{}
-]
 
 
 
@@ -190,6 +171,27 @@ global.pokemonStats =
 		pokedexNum: 265,
 	}
 }
+
+global.playerParty = 
+[
+	global.pokemonStats.zigzagoon,
+	{},
+	{},
+	{},
+	{},
+	{}
+
+]
+
+global.enemyParty = 
+[
+	{},
+	{},
+	{},
+	{},
+	{},
+	{}
+]
 
 
 
