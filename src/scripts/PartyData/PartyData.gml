@@ -164,8 +164,11 @@ global.pokemonStats =
 		baseSpAtk: 30,
 		baseSpDef: 41,
 		baseSpd: 60,
-		frontSprite: sprFront263,
-		backSprite: sprBack263,
+		sprites:
+		{
+			frontSprite: sprFront263,
+			backSprite: sprBack263
+		},
 		type: global.types.normal,
 		pokedexNum: 263,
 	},
@@ -178,8 +181,11 @@ global.pokemonStats =
 		baseSpAtk: 20,
 		baseSpDef: 30,
 		baseSpd: 20,
-		frontSprite: sprFront265,
-		backSprite: sprBack265,
+		sprites:
+		{
+			frontSprite: sprFront265,
+			backSprite: sprBack265
+		},
 		type: global.types.bug,
 		pokedexNum: 265,
 	}

@@ -87,6 +87,7 @@
     {"id":{"name":"sprLittlerootTown","path":"sprites/sprLittlerootTown/sprLittlerootTown.yy",},},
     {"id":{"name":"sprBattleBackgrounds","path":"sprites/sprBattleBackgrounds/sprBattleBackgrounds.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
+    {"id":{"name":"objBattleUnit","path":"objects/objBattleUnit/objBattleUnit.yy",},},
     {"id":{"name":"sprTown","path":"sprites/sprTown/sprTown.yy",},},
     {"id":{"name":"sprTypes","path":"sprites/sprTypes/sprTypes.yy",},},
     {"id":{"name":"FillTypeEff","path":"scripts/FillTypeEff/FillTypeEff.yy",},},

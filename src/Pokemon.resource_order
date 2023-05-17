@@ -63,6 +63,7 @@
     {"name":"sprLittlerootTown","order":7,"path":"sprites/sprLittlerootTown/sprLittlerootTown.yy",},
     {"name":"sprBattleBackgrounds","order":17,"path":"sprites/sprBattleBackgrounds/sprBattleBackgrounds.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
+    {"name":"objBattleUnit","order":6,"path":"objects/objBattleUnit/objBattleUnit.yy",},
     {"name":"sprTown","order":15,"path":"sprites/sprTown/sprTown.yy",},
     {"name":"sprTypes","order":14,"path":"sprites/sprTypes/sprTypes.yy",},
     {"name":"FillTypeEff","order":6,"path":"scripts/FillTypeEff/FillTypeEff.yy",},
