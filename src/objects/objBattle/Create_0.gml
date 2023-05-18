@@ -7,7 +7,7 @@ units = [];
 //enemy array
 for(var i = 0; i < array_length(enemies); i++)
 {
-	enemyUnits[i] = instance_create_depth(x+170, y+95, depth-10, objBattleUnit, enemies[i])
+	enemyUnits[i] = instance_create_depth(x+170, y+95, depth-10, objBattleUnitEnemy, enemies[i])
 	array_push(units, enemyUnits[i])
 }
 
@@ -15,7 +15,7 @@ for(var i = 0; i < array_length(enemies); i++)
 for(var i = 0; i < 1; i++)
 {
 	partyUnits[i] = 
-	instance_create_depth(x, y+143, depth-10, objBattleUnit, global.playerParty[i]);
+	instance_create_depth(x, y+155, depth-10, objBattleUnitPC, global.playerParty[i]);
 	array_push(units, global.playerParty[i]);
 }
 

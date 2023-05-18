@@ -20,6 +20,7 @@ y_to = y_pos;
 
 targetX = 0;
 targetY = 0;
+justEncountered = false;
 
 walk_anim_length = 0.4;
 walk_anim_time = 0;
