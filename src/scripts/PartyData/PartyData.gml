@@ -1,9 +1,4 @@
 // starting up me party
-
-
-
-
-
 global.types = 
 {
 	normal:
@@ -150,7 +145,7 @@ global.pokemonStats =
 			frontSprite: sprFront263,
 			backSprite: sprBack263
 		},
-		type: global.types.normal,
+		type: [global.types.normal],
 		pokedexNum: 263,
 	},
 	wurmple:
@@ -167,8 +162,93 @@ global.pokemonStats =
 			frontSprite: sprFront265,
 			backSprite: sprBack265
 		},
-		type: global.types.bug,
+		type: [global.types.bug],
 		pokedexNum: 265,
+	},
+	slakoth:
+	{
+		name: "Slakoth",
+		baseHP: 60,
+		baseAtk: 60,
+		baseDef: 60,
+		baseSpAtk: 35,
+		baseSpDef: 35,
+		baseSpd: 30,
+		spr:
+		{
+			frontSprite: sprFront287,
+			backSprite: sprBack287
+		},
+		type: [global.types.normal],
+		pokedexNum: 287,
+	},
+	shroomish:
+	{
+		name: "Shroomish",
+		baseHP: 60,
+		baseAtk: 40,
+		baseDef: 60,
+		baseSpAtk: 40,
+		baseSpDef: 60,
+		baseSpd: 35,
+		spr:
+		{
+			frontSprite: sprFront285,
+			backSprite: sprBack285
+		},
+		type: [global.types.grass],
+		pokedexNum: 285,
+	},
+	taillow:
+	{
+		name: "Taillow",
+		baseHP: 40,
+		baseAtk: 55,
+		baseDef: 30,
+		baseSpAtk: 30,
+		baseSpDef: 30,
+		baseSpd: 85,
+		spr:
+		{
+			frontSprite: sprFront276,
+			backSprite: sprBack276
+		},
+		type: [global.types.normal, global.types.flying],
+		pokedexNum: 276,
+	},
+	silcoon:
+	{
+		name: "Silcoon",
+		baseHP: 50,
+		baseAtk: 35,
+		baseDef: 55,
+		baseSpAtk: 25,
+		baseSpDef: 25,
+		baseSpd: 15,
+		spr:
+		{
+			frontSprite: sprFront266,
+			backSprite: sprBack266
+		},
+		type: [global.types.bug],
+		pokedexNum: 266,
+	},
+	cascoon:
+	{
+		name: "Cascoon",
+		baseHP: 50,
+		baseAtk: 35,
+		baseDef: 55,
+		baseSpAtk: 25,
+		baseSpDef: 25,
+		baseSpd: 15,
+		spr:
+		{
+			frontSprite: sprFront268,
+			backSprite: sprBack268
+		},
+		type: [global.types.bug],
+		pokedexNum: 268,
 	}
 }
 
@@ -192,9 +272,5 @@ global.enemyParty =
 	{},
 	{}
 ]
-
-
-
-
 
 global.petalburgWoodsWildPool = [global.pokemonStats.zigzagoon]

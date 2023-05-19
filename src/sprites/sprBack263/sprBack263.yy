@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1defbb16-bfd0-4f56-90b7-f741db24d8be","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 6,
+  "origin": 0,
   "parent": {
     "name": "Back Sprites",
     "path": "folders/Sprites/Back Sprites.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
-    "yorigin": 64,
+    "yorigin": 0,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

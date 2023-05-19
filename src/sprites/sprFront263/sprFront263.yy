@@ -41,7 +41,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"07c02426-16f4-4396-8283-c0554e3d9dcc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 6,
+  "origin": 0,
   "parent": {
     "name": "Front Sprites",
     "path": "folders/Sprites/Front Sprites.yy",
@@ -96,7 +96,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
-    "yorigin": 37,
+    "yorigin": 0,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
