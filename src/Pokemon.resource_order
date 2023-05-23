@@ -79,6 +79,7 @@
     {"name":"sprBack280","order":16,"path":"sprites/sprBack280/sprBack280.yy",},
     {"name":"sprPokemonCentre_Mart","order":12,"path":"sprites/sprPokemonCentre_Mart/sprPokemonCentre_Mart.yy",},
     {"name":"sprFront266","order":10,"path":"sprites/sprFront266/sprFront266.yy",},
+    {"name":"sprText","order":188,"path":"sprites/sprText/sprText.yy",},
     {"name":"sprPetalburgWoods","order":10,"path":"sprites/sprPetalburgWoods/sprPetalburgWoods.yy",},
     {"name":"sprFront280","order":24,"path":"sprites/sprFront280/sprFront280.yy",},
     {"name":"sprNPCs","order":9,"path":"sprites/sprNPCs/sprNPCs.yy",},

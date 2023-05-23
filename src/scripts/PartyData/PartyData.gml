@@ -252,6 +252,80 @@ global.pokemonStats =
 	}
 }
 
+global.moves = 
+{
+	attacking: 
+	{
+		tackle:
+			{
+			name: "Tackle",
+			pow: 50,	
+			type: global.types.normal,
+			pp: 35,
+			isSpecial: false 
+			},
+		poisonSting:
+			{
+			name: "Poison Sting",
+			pow: 15,	
+			type: global.types.poison,
+			pp: 35,
+			isSpecial: false
+			},
+		peck:
+			{
+			name: "Peck",
+			pow: 35,
+			type: global.types.flying,
+			pp: 35,
+			isSpecial: false
+			},
+		quickAttack:
+			{
+			name: "Quick Attack",
+			pow: 40,
+			type: global.types.normal,
+			pp: 30,
+			isSpecial: false
+			}
+	},
+	statChange:
+		{
+		tailWhip:
+			{	
+			name: "Tail Whip",
+			stat: "def",
+			stage: -1,
+			pp: 30,
+			isItForSelf: false 
+			},
+		growl:
+			{	
+			name: "Growl",
+			stat: "atk",
+			stage: -1,
+			pp: 40,
+			isItForSelf: false
+			},
+		stringShot:
+			{	
+			name: "String Shot",
+			stat: "spd",
+			stage: -2,
+			pp: 40,
+			isItForSelf: false
+			},
+		harden:
+			{	
+			name: "Harden",
+			stat: "def",
+			stage: 1,
+			pp: 30,
+			isItForSelf: true
+			},	
+		}
+}
+
 global.playerParty = 
 [
 	global.pokemonStats.zigzagoon,

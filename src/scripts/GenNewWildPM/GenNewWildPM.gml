@@ -37,7 +37,7 @@ function GenNewWildPM()
 		}
 		else 
 		{
-		    return global.pokemonStats.wurmple;
+		    return global.pokemonStats.shroomish;
 		}
 	}
 }
