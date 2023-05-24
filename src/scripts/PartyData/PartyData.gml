@@ -148,6 +148,57 @@ global.pokemonStats =
 		type: [global.types.normal],
 		pokedexNum: 263,
 	},
+	treecko:
+	{
+		name: "Treecko",
+		baseHP: 40,
+		baseAtk: 45,
+		baseDef: 35,
+		baseSpAtk: 65,
+		baseSpDef: 55,
+		baseSpd: 70,
+		spr:
+		{
+			frontSprite: sprFront252,
+			backSprite: sprBack252
+		},
+		type: [global.types.grass],
+		pokedexNum: 252,
+	},
+	mudkip:
+	{
+		name: "Mudkip",
+		baseHP: 50,
+		baseAtk: 70,
+		baseDef: 50,
+		baseSpAtk: 50,
+		baseSpDef: 50,
+		baseSpd: 40,
+		spr:
+		{
+			frontSprite: sprFront258,
+			backSprite: sprBack258
+		},
+		type: [global.types.water],
+		pokedexNum: 258,
+	},
+	torchic:
+	{
+		name: "Torchic",
+		baseHP: 45,
+		baseAtk: 60,
+		baseDef: 40,
+		baseSpAtk: 70,
+		baseSpDef: 50,
+		baseSpd: 45,
+		spr:
+		{
+			frontSprite: sprFront255,
+			backSprite: sprBack255
+		},
+		type: [global.types.fire],
+		pokedexNum: 255,
+	},
 	wurmple:
 	{
 		name: "Wurmple",
@@ -264,6 +315,14 @@ global.moves =
 			pp: 35,
 			isSpecial: false 
 			},
+		pound:
+			{
+			name: "Pound",
+			pow: 40,
+			type: global.types.normal,
+			pp: 35,
+			isSpecial: false 
+			},
 		poisonSting:
 			{
 			name: "Poison Sting",
@@ -280,6 +339,46 @@ global.moves =
 			pp: 35,
 			isSpecial: false
 			},
+		mudSlap:
+			{
+			name: "Mud Slap",
+			pow: 20,	
+			type: global.types.ground,
+			pp: 10,
+			isSpecial: false 
+			},
+		waterGun:
+			{
+			name: "Water Gun",
+			pow: 40,	
+			type: global.types.water,
+			pp: 25,
+			isSpecial: false 
+			},
+		tackle:
+			{
+			name: "Tackle",
+			pow: 50,	
+			type: global.types.normal,
+			pp: 35,
+			isSpecial: false 
+			},
+		scratch:
+			{
+			name: "Scratch",
+			pow: 40,	
+			type: global.types.normal,
+			pp: 35,
+			isSpecial: false 
+			},
+		ember:
+			{
+			name: "Ember",
+			pow: 50,	
+			type: global.types.normal,
+			pp: 35,
+			isSpecial: false 
+			},
 		quickAttack:
 			{
 			name: "Quick Attack",
@@ -294,6 +393,14 @@ global.moves =
 		tailWhip:
 			{	
 			name: "Tail Whip",
+			stat: "def",
+			stage: -1,
+			pp: 30,
+			isItForSelf: false 
+			},
+		leer:
+			{	
+			name: "Leer",
 			stat: "def",
 			stage: -1,
 			pp: 30,
@@ -328,7 +435,7 @@ global.moves =
 
 global.playerParty = 
 [
-	global.pokemonStats.zigzagoon,
+	global.pokemonStats.mudkip,
 	{},
 	{},
 	{},
