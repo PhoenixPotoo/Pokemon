@@ -155,6 +155,7 @@
     {"id":{"name":"sprInteriorAreas","path":"sprites/sprInteriorAreas/sprInteriorAreas.yy",},},
     {"id":{"name":"sprLittlerootTown","path":"sprites/sprLittlerootTown/sprLittlerootTown.yy",},},
     {"id":{"name":"sprFront256","path":"sprites/sprFront256/sprFront256.yy",},},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"sprBack276","path":"sprites/sprBack276/sprBack276.yy",},},
     {"id":{"name":"sprBattleBackgrounds","path":"sprites/sprBattleBackgrounds/sprBattleBackgrounds.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
