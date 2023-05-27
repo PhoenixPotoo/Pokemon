@@ -14,6 +14,7 @@ function Move(dir){
 			if(tilemap_get(grass_tile_map, x_pos, y_pos)){
 				randomize()
 				encounter = irandom_range(1, 10) //rng
+				encounter = 1
 				if (encounter == 1 and !justEncountered){
 					justEncountered = true
 					state = states.battling

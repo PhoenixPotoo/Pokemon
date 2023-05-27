@@ -23,3 +23,4 @@ global.components[directions.up] = [0, -1];
 
 
 
+

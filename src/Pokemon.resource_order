@@ -37,6 +37,7 @@
     {"name":"sprFront282","order":26,"path":"sprites/sprFront282/sprFront282.yy",},
     {"name":"BattleFunctions","order":4,"path":"scripts/BattleFunctions/BattleFunctions.yy",},
     {"name":"sprTargetLeave","order":3,"path":"sprites/sprTargetLeave/sprTargetLeave.yy",},
+    {"name":"sprTextUpper","order":189,"path":"sprites/sprTextUpper/sprTextUpper.yy",},
     {"name":"objBattle","order":5,"path":"objects/objBattle/objBattle.yy",},
     {"name":"PokeLab","order":1,"path":"rooms/PokeLab/PokeLab.yy",},
     {"name":"sprMayLeft","order":2,"path":"sprites/sprMayLeft/sprMayLeft.yy",},

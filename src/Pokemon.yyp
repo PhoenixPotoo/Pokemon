@@ -36,7 +36,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.2.0.71",
   },
   "resources": [
     {"id":{"name":"objDataCarrier","path":"objects/objDataCarrier/objDataCarrier.yy",},},
@@ -55,6 +55,7 @@
     {"id":{"name":"sprFront282","path":"sprites/sprFront282/sprFront282.yy",},},
     {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},},
     {"id":{"name":"sprTargetLeave","path":"sprites/sprTargetLeave/sprTargetLeave.yy",},},
+    {"id":{"name":"sprTextUpper","path":"sprites/sprTextUpper/sprTextUpper.yy",},},
     {"id":{"name":"objBattle","path":"objects/objBattle/objBattle.yy",},},
     {"id":{"name":"MACRO","path":"scripts/MACRO/MACRO.yy",},},
     {"id":{"name":"PokeLab","path":"rooms/PokeLab/PokeLab.yy",},},
