@@ -42,7 +42,7 @@ function GenNewWildPM()
 	}
 }
 
-function calcStats(pokemon)
+function calcPM(pokemon)
 {
 	gendPM = GenNewWildPM()
 	lvl = irandom_range(5, 6)
@@ -54,6 +54,8 @@ function calcStats(pokemon)
 	gendPM.spAtk = calcStat(gendPM.baseSpAtk, lvl)
 	gendPM.spDef = calcStat(gendPM.baseSpDef, lvl)
 	gendPM.spd = calcStat(gendPM.baseSpd, lvl)
+	
+	return gendPM
 }
 
 function calcStat(baseStat, lvl){
