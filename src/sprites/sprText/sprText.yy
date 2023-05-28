@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sprText",
-  "bbox_bottom": 35,
+  "bbox_bottom": 16,
   "bbox_left": 0,
   "bbox_right": 166,
   "bbox_top": 0,

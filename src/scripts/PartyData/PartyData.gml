@@ -140,6 +140,7 @@ global.pokemonStats =
 		baseSpAtk: 30,
 		baseSpDef: 41,
 		baseSpd: 60,
+		lvl: 1,
 		spr:
 		{
 			frontSprite: sprFront263,
@@ -147,6 +148,7 @@ global.pokemonStats =
 		},
 		type: [global.types.normal],
 		pokedexNum: 263,
+		moves: []
 	},
 	treecko:
 	{
@@ -157,6 +159,8 @@ global.pokemonStats =
 		baseSpAtk: 65,
 		baseSpDef: 55,
 		baseSpd: 70,
+		lvl: 1,
+
 		spr:
 		{
 			frontSprite: sprFront252,
@@ -174,6 +178,7 @@ global.pokemonStats =
 		baseSpAtk: 50,
 		baseSpDef: 50,
 		baseSpd: 40,
+		lvl: 1,
 		spr:
 		{
 			frontSprite: sprFront258,
@@ -191,6 +196,7 @@ global.pokemonStats =
 		baseSpAtk: 70,
 		baseSpDef: 50,
 		baseSpd: 45,
+		lvl: 1,
 		spr:
 		{
 			frontSprite: sprFront255,
@@ -208,6 +214,7 @@ global.pokemonStats =
 		baseSpAtk: 20,
 		baseSpDef: 30,
 		baseSpd: 20,
+		lvl: 1,
 		spr:
 		{
 			frontSprite: sprFront265,
@@ -225,6 +232,7 @@ global.pokemonStats =
 		baseSpAtk: 35,
 		baseSpDef: 35,
 		baseSpd: 30,
+		lvl: 1,
 		spr:
 		{
 			frontSprite: sprFront287,
@@ -242,6 +250,7 @@ global.pokemonStats =
 		baseSpAtk: 40,
 		baseSpDef: 60,
 		baseSpd: 35,
+		lvl: 1,
 		spr:
 		{
 			frontSprite: sprFront285,
@@ -259,6 +268,7 @@ global.pokemonStats =
 		baseSpAtk: 30,
 		baseSpDef: 30,
 		baseSpd: 85,
+		lvl: 1,
 		spr:
 		{
 			frontSprite: sprFront276,
@@ -276,6 +286,7 @@ global.pokemonStats =
 		baseSpAtk: 25,
 		baseSpDef: 25,
 		baseSpd: 15,
+		lvl: 1,
 		spr:
 		{
 			frontSprite: sprFront266,
@@ -293,6 +304,7 @@ global.pokemonStats =
 		baseSpAtk: 25,
 		baseSpDef: 25,
 		baseSpd: 15,
+		lvl: 1,
 		spr:
 		{
 			frontSprite: sprFront268,
