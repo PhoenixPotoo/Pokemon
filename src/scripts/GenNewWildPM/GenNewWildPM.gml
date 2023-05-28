@@ -42,13 +42,31 @@ function GenNewWildPM()
 	}
 }
 
-function calcPM(pokemon)
+function calcPM()
 {
-	gendPM = GenNewWildPM()
+	gendPM = variable_clone(GenNewWildPM())
 	lvl = irandom_range(5, 6)
 	gendPM.lvl = lvl
 	//hp, atk, def, spAtk, spDef, spd
 	gendPM.hP = calcHPStat(gendPM.baseHP, lvl)
+	gendPM.maxHP = calcHPStat(gendPM.baseHP, lvl)
+	gendPM.atk = calcStat(gendPM.baseAtk, lvl)
+	gendPM.def = calcStat(gendPM.baseDef, lvl)
+	gendPM.spAtk = calcStat(gendPM.baseSpAtk, lvl)
+	gendPM.spDef = calcStat(gendPM.baseSpDef, lvl)
+	gendPM.spd = calcStat(gendPM.baseSpd, lvl)
+	
+	return gendPM
+}
+
+function calcPartyPM(pokemon)
+{
+	gendPM = pokemon
+	lvl = pokemon.lvl
+
+	//hp, atk, def, spAtk, spDef, spd
+	gendPM.hP = calcHPStat(gendPM.baseHP, lvl)
+	gendPM.maxHP = calcHPStat(gendPM.baseHP, lvl)
 	gendPM.atk = calcStat(gendPM.baseAtk, lvl)
 	gendPM.def = calcStat(gendPM.baseDef, lvl)
 	gendPM.spAtk = calcStat(gendPM.baseSpAtk, lvl)
@@ -59,9 +77,9 @@ function calcPM(pokemon)
 }
 
 function calcStat(baseStat, lvl){
-	return (((2*baseStat + 5) * lvl)/100) + 5
+	return ceil((((2*baseStat + 5) * lvl)/100) + 5)
 }
 
 function calcHPStat(baseStat, lvl){
-	return (((2*baseStat + 5) * lvl)/100) + lvl + 10
+	return ceil((((2*baseStat + 5) * lvl)/100) + lvl + 10)
 }

@@ -286,18 +286,13 @@ growl = global.moves.statChange.growl
 stringShot = global.moves.statChange.stringShot
 harden = global.moves.statChange.harden
 
-
-
-
-
-
-
 global.pokemonStats = 
 {
 	zigzagoon:
 	{
 		name: "Zigzagoon",
 		baseHP: 38,
+		maxHP: 38,
 		baseAtk: 30,
 		baseDef: 41,
 		baseSpAtk: 30,
@@ -317,6 +312,7 @@ global.pokemonStats =
 	{
 		name: "Treecko",
 		baseHP: 40,
+		maxHP: 40,
 		baseAtk: 45,
 		baseDef: 35,
 		baseSpAtk: 65,
@@ -337,6 +333,7 @@ global.pokemonStats =
 	{
 		name: "Mudkip",
 		baseHP: 50,
+		maxHP: 50,
 		baseAtk: 70,
 		baseDef: 50,
 		baseSpAtk: 50,
@@ -356,6 +353,7 @@ global.pokemonStats =
 	{
 		name: "Torchic",
 		baseHP: 45,
+		maxHP: 45,
 		baseAtk: 60,
 		baseDef: 40,
 		baseSpAtk: 70,
@@ -375,6 +373,7 @@ global.pokemonStats =
 	{
 		name: "Wurmple",
 		baseHP: 45,
+		maxHP: 45,
 		baseAtk: 45,
 		baseDef: 35,
 		baseSpAtk: 20,
@@ -394,6 +393,7 @@ global.pokemonStats =
 	{
 		name: "Slakoth",
 		baseHP: 60,
+		maxHP: 60,
 		baseAtk: 60,
 		baseDef: 60,
 		baseSpAtk: 35,
@@ -413,6 +413,7 @@ global.pokemonStats =
 	{
 		name: "Shroomish",
 		baseHP: 60,
+		maxHP: 46,
 		baseAtk: 40,
 		baseDef: 60,
 		baseSpAtk: 40,
@@ -432,6 +433,7 @@ global.pokemonStats =
 	{
 		name: "Taillow",
 		baseHP: 40,
+		maxHP: 40,
 		baseAtk: 55,
 		baseDef: 30,
 		baseSpAtk: 30,
@@ -451,6 +453,7 @@ global.pokemonStats =
 	{
 		name: "Silcoon",
 		baseHP: 50,
+		maxHP: 50,
 		baseAtk: 35,
 		baseDef: 55,
 		baseSpAtk: 25,
@@ -470,6 +473,7 @@ global.pokemonStats =
 	{
 		name: "Cascoon",
 		baseHP: 50,
+		maxHP: 50,
 		baseAtk: 35,
 		baseDef: 55,
 		baseSpAtk: 25,
@@ -487,9 +491,10 @@ global.pokemonStats =
 	}
 }
 
+slotOnePM = variable_clone(global.pokemonStats.mudkip)
 global.playerParty = 
 [
-	global.pokemonStats.mudkip,
+	slotOnePM,
 	{},
 	{},
 	{},

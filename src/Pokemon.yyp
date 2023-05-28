@@ -36,7 +36,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.0.71",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"objDataCarrier","path":"objects/objDataCarrier/objDataCarrier.yy",},},
@@ -105,6 +105,7 @@
     {"id":{"name":"sprBack282","path":"sprites/sprBack282/sprBack282.yy",},},
     {"id":{"name":"sprMayUp","path":"sprites/sprMayUp/sprMayUp.yy",},},
     {"id":{"name":"sprFront274","path":"sprites/sprFront274/sprFront274.yy",},},
+    {"id":{"name":"sprHealthBar","path":"sprites/sprHealthBar/sprHealthBar.yy",},},
     {"id":{"name":"sprBack287","path":"sprites/sprBack287/sprBack287.yy",},},
     {"id":{"name":"sprChooseActionMenu","path":"sprites/sprChooseActionMenu/sprChooseActionMenu.yy",},},
     {"id":{"name":"sprBack280","path":"sprites/sprBack280/sprBack280.yy",},},
@@ -131,6 +132,7 @@
     {"id":{"name":"sprBack274","path":"sprites/sprBack274/sprBack274.yy",},},
     {"id":{"name":"tsLittlerootTown","path":"tilesets/tsLittlerootTown/tsLittlerootTown.yy",},},
     {"id":{"name":"sprFront281","path":"sprites/sprFront281/sprFront281.yy",},},
+    {"id":{"name":"objHealthBar","path":"objects/objHealthBar/objHealthBar.yy",},},
     {"id":{"name":"sprFront277","path":"sprites/sprFront277/sprFront277.yy",},},
     {"id":{"name":"sprBack258","path":"sprites/sprBack258/sprBack258.yy",},},
     {"id":{"name":"sprFront288","path":"sprites/sprFront288/sprFront288.yy",},},
