@@ -10,6 +10,7 @@ enum directions{
 }
 
 enum rooms{
+	StartMenu,
 	LittlerootTown,
 	PokeLab,
 	PetalburgWoods

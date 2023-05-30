@@ -320,7 +320,7 @@ global.pokemonStats =
 		},
 		type: [nor],
 		pokedexNum: 263,
-		moves: [tackle, growl, tailWhip]
+		moves: [tackle]
 	},
 	treecko:
 	{
@@ -341,7 +341,7 @@ global.pokemonStats =
 		},
 		type: [gra],
 		pokedexNum: 252,
-		moves: [pound, leer, quickAttack]
+		moves: [pound, tackle, quickAttack]
 	},
 	mudkip:
 	{
@@ -353,7 +353,7 @@ global.pokemonStats =
 		baseSpAtk: 50,
 		baseSpDef: 50,
 		baseSpd: 40,
-		lvl: 1,
+		lvl: 10,
 		spr:
 		{
 			frontSprite: sprFront258,
@@ -361,7 +361,7 @@ global.pokemonStats =
 		},
 		type: [wat],
 		pokedexNum: 258,
-		moves: [tackle, growl, mudSlap]
+		moves: [tackle, pound, mudSlap]
 	},
 	torchic:
 	{
@@ -381,7 +381,7 @@ global.pokemonStats =
 		},
 		type: [fir],
 		pokedexNum: 255,
-		moves: [scratch, growl, ember]
+		moves: [scratch, tackle, ember]
 	},
 	wurmple:
 	{
@@ -401,7 +401,7 @@ global.pokemonStats =
 		},
 		type: [bug],
 		pokedexNum: 265,
-		moves: [tackle, stringShot, poisonSting]
+		moves: [tackle, poisonSting]
 	},
 	slakoth:
 	{
@@ -461,7 +461,7 @@ global.pokemonStats =
 		},
 		type: [nor, fly],
 		pokedexNum: 276,
-		moves: [peck, growl, quickAttack]
+		moves: [peck, tackle, quickAttack]
 	},
 	silcoon:
 	{
@@ -481,7 +481,7 @@ global.pokemonStats =
 		},
 		type: [bug],
 		pokedexNum: 266,
-		moves: [harden]
+		moves: [tackle]
 	},
 	cascoon:
 	{
@@ -501,7 +501,7 @@ global.pokemonStats =
 		},
 		type: [bug],
 		pokedexNum: 268,
-		moves: [harden]
+		moves: [tackle]
 	}
 }
 

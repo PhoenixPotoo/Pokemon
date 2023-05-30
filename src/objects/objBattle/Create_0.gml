@@ -14,6 +14,9 @@ battleWaitTimeRemaining = 0;
 currentUser = noone;
 currentAction = -1;
 currentTarget = noone;
+waitTime = 0
+totalWaitTime = 90
+
 
 //enemy array
 for(var i = 0; i < array_length(enemies); i++)
@@ -37,7 +40,7 @@ instance_create_depth(x, y+144, -10, objMenu)
 function BattleStateSelectAction()
 {
 	var _unit = isYourTurn ? partyUnits[0] : enemyUnits[0];
-	var _target = isYourTurn ? enemyUnits[0] : partyUnits[0] ;
+	var _target = isYourTurn ? enemyUnits[0] : partyUnits[0];
 
 	if(!instance_exists(_unit) || _unit.hP <=0)
 	{
@@ -47,20 +50,37 @@ function BattleStateSelectAction()
 	if(isYourTurn)
 	{
 		objMenu.sprite_index = sprMoveSetMenu
+		if(!instance_exists(objMenuSlot1)){
+		instance_create_depth(x + 20, y + 160, -100, objMenuSlot1, global.playerParty[0])
+		instance_create_depth(x + 20, y + 180, -100, objMenuSlot2, global.playerParty[0])
+		instance_create_depth(x + 100, y + 160, -100, objMenuSlot3, global.playerParty[0])
+		instance_create_depth(x + 100, y + 180, -100, objMenuSlot4, global.playerParty[0])
+		}
+		if(global.selectedMove)
+		{
+			show_message("we selected a move fu")
+			instance_destroy(objMenuSlot1)
+			instance_destroy(objMenuSlot4)
+			instance_destroy(objMenuSlot3)
+			instance_destroy(objMenuSlot2)
+			BeginAction(_unit.id, global.selectedMoveName, _target.id);
+		}
 	}
 	else
 	{
-		move = irandom_range(0, (array_length(_unit.move) - 1)) //rng
-		BeginAction(_unit.id, _unit.move[move], _target.id);
+		move = irandom_range(0, (array_length(_unit.moves) - 1)) //rng
+		BeginAction(_unit.id, _unit.moves[move], _target.id);
 	}
 }
 
 function BeginAction(_user, _action, _target)
 {
+	global.selectedMove = false
 	currentUser = _user;
 	currentAction = _action;
 	currentTarget = _target;
 	battleWaitTimeRemaining = battleWaitTimeFrames;
+	
 	with(_user)
 	{
 		acting = true;
@@ -70,6 +90,7 @@ function BeginAction(_user, _action, _target)
 			image_index = 0;
 		}	
 	}
+	objMenu.sprite_index = sprTextMenu
 	battleState = BattleStatePerformAction;
 }
 
@@ -101,7 +122,27 @@ function BattleStatePerformAction()
 
 function BattleStateVictoryCheck()
 {
+	if(currentUser.hP <= 0|| currentTarget.hP <= 0){
+		if(waitTime <= totalWaitTime)
+		{
+			waitTime++
+		}
+		else{
+			calcPartyPM(partyUnits[0])
+			partyUnits[0].lvl += 1 
+			instance_activate_all()
+			instance_destroy(objBattleUnit)
+			instance_destroy(objBattleUnitPC)
+			instance_destroy(objBattleUnitEnemy)
+			instance_destroy(objMenu)
+			instance_destroy(objBattle)
+		}
+		
+	}
+	else{
 	battleState = BattleStateTurnProgression;
+	}
+	
 }
 
 function BattleStateTurnProgression()
