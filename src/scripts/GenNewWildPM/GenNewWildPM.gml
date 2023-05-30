@@ -55,6 +55,9 @@ function calcPM()
 	gendPM.spAtk = calcStat(gendPM.baseSpAtk, lvl)
 	gendPM.spDef = calcStat(gendPM.baseSpDef, lvl)
 	gendPM.spd = calcStat(gendPM.baseSpd, lvl)
+	gendPM.defStage = 0;
+	gendPM.atkStage = 0;
+	gendPM.spdStage = 0;
 	
 	return gendPM
 }
@@ -72,6 +75,9 @@ function calcPartyPM(pokemon)
 	gendPM.spAtk = calcStat(gendPM.baseSpAtk, lvl)
 	gendPM.spDef = calcStat(gendPM.baseSpDef, lvl)
 	gendPM.spd = calcStat(gendPM.baseSpd, lvl)
+	gendPM.defStage = 0;
+	gendPM.atkStage = 0;
+	gendPM.spdStage = 0;
 	
 	return gendPM
 }

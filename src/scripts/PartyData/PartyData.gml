@@ -139,7 +139,8 @@ global.moves =
 			pow: 50,	
 			type: global.types.normal,
 			pp: 35,
-			isSpecial: false 
+			isSpecial: false,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)}
 			},
 		pound:
 			{
@@ -147,6 +148,7 @@ global.moves =
 			pow: 40,
 			type: global.types.normal,
 			pp: 35,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
 			isSpecial: false 
 			},
 		poisonSting:
@@ -155,6 +157,7 @@ global.moves =
 			pow: 15,	
 			type: global.types.poison,
 			pp: 35,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
 			isSpecial: false
 			},
 		peck:
@@ -163,6 +166,7 @@ global.moves =
 			pow: 35,
 			type: global.types.flying,
 			pp: 35,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
 			isSpecial: false
 			},
 		mudSlap:
@@ -171,6 +175,7 @@ global.moves =
 			pow: 20,	
 			type: global.types.ground,
 			pp: 10,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
 			isSpecial: false 
 			},
 		waterGun:
@@ -179,6 +184,7 @@ global.moves =
 			pow: 40,	
 			type: global.types.water,
 			pp: 25,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
 			isSpecial: false 
 			},
 		scratch:
@@ -187,6 +193,7 @@ global.moves =
 			pow: 40,	
 			type: global.types.normal,
 			pp: 35,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
 			isSpecial: false 
 			},
 		ember:
@@ -195,6 +202,7 @@ global.moves =
 			pow: 50,	
 			type: global.types.normal,
 			pp: 35,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
 			isSpecial: false 
 			},
 		quickAttack:
@@ -203,6 +211,7 @@ global.moves =
 			pow: 40,
 			type: global.types.normal,
 			pp: 30,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
 			isSpecial: false
 			}
 	},
@@ -214,6 +223,7 @@ global.moves =
 			stat: "def",
 			stage: -1,
 			pp: 30,
+			func: function(_user, _action, _target){doStatChange(_user, _action, _target)},
 			isItForSelf: false 
 			},
 		leer:
@@ -222,6 +232,7 @@ global.moves =
 			stat: "def",
 			stage: -1,
 			pp: 30,
+			func: function(_user, _action, _target){doStatChange(_user, _action, _target)},
 			isItForSelf: false 
 			},
 		growl:
@@ -230,6 +241,7 @@ global.moves =
 			stat: "atk",
 			stage: -1,
 			pp: 40,
+			func: function(_user, _action, _target){doStatChange(_user, _action, _target)},
 			isItForSelf: false
 			},
 		stringShot:
@@ -238,6 +250,7 @@ global.moves =
 			stat: "spd",
 			stage: -2,
 			pp: 40,
+			func: function(_user, _action, _target){doStatChange(_user, _action, _target)},
 			isItForSelf: false
 			},
 		harden:
@@ -246,6 +259,7 @@ global.moves =
 			stat: "def",
 			stage: 1,
 			pp: 30,
+			func: function(_user, _action, _target){doStatChange(_user, _action, _target)},
 			isItForSelf: true
 			},	
 		}

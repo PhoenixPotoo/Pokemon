@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sprMoveSetMenu",
-  "bbox_bottom": 95,
+  "bbox_bottom": 65,
   "bbox_left": 0,
-  "bbox_right": 511,
+  "bbox_right": 351,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2a9f5694-7435-4081-986c-d5c055bf41b4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c3f8a57e-2f89-4030-bc88-1ba516443c15",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 96,
+  "height": 66,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4cc700b7-3658-4531-88d1-c46a39dc0b70","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3bfdb80e-4106-43de-bf6b-121c1420fcc8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2a9f5694-7435-4081-986c-d5c055bf41b4","path":"sprites/sprMoveSetMenu/sprMoveSetMenu.yy",},},},"Disabled":false,"id":"7438b880-045b-470d-a5c5-4439d6d8f1ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c3f8a57e-2f89-4030-bc88-1ba516443c15","path":"sprites/sprMoveSetMenu/sprMoveSetMenu.yy",},},},"Disabled":false,"id":"3f2d24bc-e819-408c-9dcb-272afff0d8a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 512,
+  "width": 352,
 }
