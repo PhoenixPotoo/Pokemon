@@ -302,6 +302,8 @@ waterGun = global.moves.attacking.waterGun
 scratch = global.moves.attacking.scratch
 ember = global.moves.attacking.ember
 quickAttack = global.moves.attacking.quickAttack
+shuckleSlam = global.moves.attacking.shuckleSlam
+
 
 leer = global.moves.statChange.leer
 tailWhip = global.moves.statChange.tailWhip

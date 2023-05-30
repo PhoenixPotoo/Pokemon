@@ -74,6 +74,7 @@ function BattleStateSelectAction()
 
 function BeginAction(_user, _action, _target)
 {
+	show_message(_user.name)
 	global.selectedMove = false
 	currentUser = _user;
 	currentAction = _action;
@@ -95,6 +96,7 @@ function BeginAction(_user, _action, _target)
 
 function BattleStatePerformAction()
 {
+	
 	if(currentUser.acting)
 	{
 		if(currentUser.image_index >= currentUser.image_number - 1)
@@ -105,6 +107,7 @@ function BattleStatePerformAction()
 				image_index = 0;
 				acting = false;
 			}
+			show_message(currentTarget.name)
 			currentAction.func(currentUser, currentAction, currentTarget);
 		}
 	}

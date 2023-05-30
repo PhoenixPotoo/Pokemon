@@ -7,9 +7,9 @@ function GenNewWildPM()
 	{
 		randomize()
 		encounter = irandom_range(1, 100)
-		if (encounter <= 30) 
+		if (encounter <= 0) 
 		{
-			return global.pokemonStats.zigzagoon;
+			return global.pokemonStats.shroomish;
 		} 
 		else if (encounter > 30 and encounter <= 55) 
 		{
