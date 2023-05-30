@@ -82,6 +82,26 @@ function calcPartyPM(pokemon)
 	return gendPM
 }
 
+function calcTrainer(pokemon)
+{
+	gendPM = variable_clone(pokemon)
+	lvl = pokemon.lvl
+
+	//hp, atk, def, spAtk, spDef, spd
+	gendPM.hP = calcHPStat(gendPM.baseHP, lvl)
+	gendPM.maxHP = calcHPStat(gendPM.baseHP, lvl)
+	gendPM.atk = calcStat(gendPM.baseAtk, lvl)
+	gendPM.def = calcStat(gendPM.baseDef, lvl)
+	gendPM.spAtk = calcStat(gendPM.baseSpAtk, lvl)
+	gendPM.spDef = calcStat(gendPM.baseSpDef, lvl)
+	gendPM.spd = calcStat(gendPM.baseSpd, lvl)
+	gendPM.defStage = 0;
+	gendPM.atkStage = 0;
+	gendPM.spdStage = 0;
+	
+	return gendPM
+}
+
 function calcStat(baseStat, lvl){
 	return ceil((((2*baseStat + 5) * lvl)/100) + 5)
 }

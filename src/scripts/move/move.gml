@@ -67,8 +67,6 @@ function Move(dir){
 			sprite_index = sprite[dir] //dir is the enum so this works
 			break;
 		case states.battling:
-			show_message("encountered!!!")
-			show_message("you won cool ong fr ")
 			state = states.idle
 			break;
 	}

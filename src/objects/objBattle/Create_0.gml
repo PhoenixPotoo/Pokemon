@@ -58,7 +58,6 @@ function BattleStateSelectAction()
 		}
 		if(global.selectedMove)
 		{
-			show_message("we selected a move fu")
 			instance_destroy(objMenuSlot1)
 			instance_destroy(objMenuSlot4)
 			instance_destroy(objMenuSlot3)
@@ -107,7 +106,6 @@ function BattleStatePerformAction()
 				acting = false;
 			}
 			currentAction.func(currentUser, currentAction, currentTarget);
-			show_message(currentUser.name + ": "+ string(currentUser.hP) + "   " + currentTarget.name + ": " + string(currentTarget.hP))
 		}
 	}
 	else

@@ -205,6 +205,15 @@ global.moves =
 			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
 			isSpecial: false 
 			},
+		shuckleSlam:
+			{
+			name: "Shuckle Slam",
+			pow: 60,	
+			type: global.types.normal,
+			pp: 35,
+			func: function(_user, _action, _target){doDmg(_user, _action, _target)},
+			isSpecial: false 
+			},
 		quickAttack:
 			{
 			name: "Quick Attack",
@@ -321,6 +330,26 @@ global.pokemonStats =
 		type: [nor],
 		pokedexNum: 263,
 		moves: [tackle]
+	},
+	shuckle:
+	{
+		name: "Shuckle",
+		baseHP: 20,
+		maxHP: 10,
+		baseAtk: 70,
+		baseDef: 41,
+		baseSpAtk: 30,
+		baseSpDef: 41,
+		baseSpd: 60,
+		lvl: 10,
+		spr:
+		{
+			frontSprite: sprFront213,
+			backSprite: sprFront213
+		},
+		type: [nor],
+		pokedexNum: 213,
+		moves: [tackle, shuckleSlam]
 	},
 	treecko:
 	{

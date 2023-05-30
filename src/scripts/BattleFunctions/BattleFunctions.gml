@@ -13,7 +13,7 @@ function doDmg(_user, _action, _target)
 {
 	var dmg = ((((2*_user.lvl)/5) + 2) * _action.pow * (_user.atk / _target.def)) / 50
 	_target.hP -= dmg
-	show_message(_target.name)
+	show_message(string(_user.name) + " used " + string(_action.name) + " against " + string(_target.name))
 	if(_target.hP < 0) 
 	{
 		_target.hP = 0

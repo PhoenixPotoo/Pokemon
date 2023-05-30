@@ -17,7 +17,6 @@ function drawTextSeq(x, y, text)
 	if(global.currentLetter <= string_length(text) && !global.finished) 
 	{
     global.currentFrame = global.currentFrame + 1
-	show_message(global.currentFrame)
 	}
 	else
 	{
@@ -30,7 +29,6 @@ function drawTextSeq(x, y, text)
         global.currentLetter++;
 		pixelFont = font_add_sprite_ext(sprTextUpper, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!?./ 0123456789", true, 0)
 		draw_set_font(pixelFont)
-		show_message("lordie send prayers to the god almighty")
 		draw_text_ext_transformed(x + 13, y + 160, string_upper("fish"), 0, 6, 0.8, 0.8, 0);
     }
 }
